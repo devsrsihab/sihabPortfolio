@@ -5,8 +5,7 @@ import PortfolioItem from "./PortfolioItem";
 
 const Portfolio = async () => {
   // portoflio data
-  const portfolio = await getAllPortflio()
-  console.log(portfolio);
+  const portfolios = await getAllPortflio()
 
 
 
@@ -17,11 +16,12 @@ const Portfolio = async () => {
         {/* items */}
         <div className="grid grid-cols-3 gap-6 ">
           {
+              portfolios?.map((portfolio,index) => (
+                <PortfolioItem key={index} portfolio={portfolio} />
 
+              ))
           }
-          <PortfolioItem />
-          <PortfolioItem />
-          <PortfolioItem />
+
         </div>
       </Container>
     </div>
