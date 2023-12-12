@@ -2,7 +2,7 @@ import NavLinks from "./NavLinks";
 
 const Navbar = () => {
   return (
-    <header className="fixed z-50 top-0 left-0 right-0 bg-white flex max-w-full flex-col overflow-hidden px-4 py-4 text-slate-700 md:mx-auto md:flex-row md:items-center">
+    <header className=" bg-white flex max-w-full flex-col  px-4 py-4 text-slate-700 md:mx-auto md:flex-row md:items-center">
     <a
       href="#"
       className="flex cursor-pointer items-center whitespace-nowrap text-2xl font-black"

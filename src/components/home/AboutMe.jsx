@@ -4,11 +4,11 @@ import DownloadButton from "../Shared/DownloadButton";
 const AboutMe = () => {
   return (
     <>
-      <div id="aboutMe" className="max-w-4/5 w-4/5 justify-center flex items-stretch  py-36  flex-wrap mx-auto my-32 lg:my-0">
+      <div id="aboutMe" className=" w-full md:max-w-4/5 justify-center flex items-stretch py-6  md:py-16 lg:py-36 md:px-20 flex-wrap mx-auto my-20 md:my-32 lg:my-0">
         {/*Main Col*/}
         <div
           id="profile"
-          className="w-3/5  h-full lg:w-3/5 rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75 mx-6 lg:mx-0"
+          className=" lg:w-3/5 mx-10  h-full rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75  lg:mx-0"
         >
           <div className="p-4 md:p-12 text-center lg:text-left">
             {/* Image for mobile view*/}
@@ -16,7 +16,7 @@ const AboutMe = () => {
               className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
               style={{
                 backgroundImage:
-                  'url("https://source.unsplash.com/MP0IUfwrn0A")',
+                  `url("https://i.ibb.co/xmV97pk/devsrsihab.jpg")`,
               }}
             />
             <h1 className="text-3xl font-bold pt-8 lg:pt-0">

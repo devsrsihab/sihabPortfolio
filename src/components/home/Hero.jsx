@@ -4,14 +4,15 @@ const Hero = () => {
 
   return (
     <>
-      <div id="homeHero" className="relative bg-[#333333] mx-auto px-4 py-40 md:pt-16 sm:max-w-xl md:max-w-full md:px-8 lg:py-60 xl:px-20">
-        <div className="mx-auto max-w-xl lg:max-w-screen-xl">
+    
+      <div id="homeHero" className="relative bg-[#333333] md:px-20 py-10 sm:py-20 md:py-40 lg:py-96  mx-auto  lg:pt-20  max-w-full ">
+        <div className="mx-auto md:mt-30 w-full lg:max-w-screen-xl">
           <div className="mb-16 text-center lg:mb-0 lg:max-w-lg lg:text-left">
-            <div className="mb-6 max-w-xl">
+            <div className="mb-6 w-full lg:max-w-xl">
 
-              <h2 className="mb-6 max-w-lg font-sans text-3xl font-bold tracking-tight text-white sm:text-5xl sm:leading-snug">
+              <h2 className="mb-6 pt-10  lg:max-w-lg font-sans text-3xl font-bold tracking-tight text-white sm:text-5xl sm:leading-snug">
               Hello I am <br />
-                <span className="inline-block text-primary">
+                <span className="block lg:inline-block text-primary">
                 Md Sohanur Rohman Sihab
                 </span>
               </h2>
@@ -21,21 +22,6 @@ const Hero = () => {
                 </p>
               </div>
             </div>
-            {/* <div className="flex flex-col items-center justify-center space-y-2 sm:flex-row sm:space-y-0 sm:space-x-2 lg:justify-start">
-              <a
-                href="/"
-                className="inline-flex h-12 w-full items-center justify-center rounded-full bg-primary px-6 font-medium tracking-wide text-white shadow-md outline-none transition duration-200 hover:bg-green-400 focus:ring sm:w-auto"
-              >
-                {" "}
-                Download My Resume
-              </a>
-              <a
-                href="/"
-                className="inline-flex h-12 w-full items-center justify-center rounded-full border-2 border-primary px-4 font-semibold text-green-600 transition-colors duration-200 hover:border-y-green-400 hover:text-green-400 sm:w-auto"
-              >
-                Contact With Me
-              </a>
-            </div> */}
 
           </div>
           <div className="hidden h-full justify-center overflow-hidden lg:absolute lg:bottom-0 lg:right-0 lg:flex lg:w-1/2 lg:items-end lg:justify-start">
