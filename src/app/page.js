@@ -1,7 +1,6 @@
 import Navbar from "@/components/Navbar/Navbar";
-import Hero from "@/components/home/Hero";
-import Image from "next/image";
 import HomePage from "@/app/home/page";
+import Footer from "@/components/Shared/Footer";
 
 export default function Home() {
   return (
@@ -10,6 +9,8 @@ export default function Home() {
       <Navbar />
       {/* home */}
       <HomePage />
+      {/* footer */}
+      <Footer/>
     </>
   );
 }

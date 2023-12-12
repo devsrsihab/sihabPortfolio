@@ -1,5 +1,8 @@
 import AboutMe from "@/components/home/AboutMe";
+import ContactForm from "@/components/home/Contact/ContactForm";
+import Education from "@/components/home/Education/Education";
 import Hero from "@/components/home/Hero";
+import Portfolio from "@/components/home/Portfolio/Portfolio";
 import Skills from "@/components/home/Skills";
 
 const HomePage = () => {
@@ -8,9 +11,15 @@ const HomePage = () => {
       {/* hero section */}
       <Hero />
       {/* about me section */}
-      <AboutMe/>
+      <AboutMe />
       {/* Skill Section */}
-      <Skills/>
+      <Skills />
+      {/* portfolio */}
+      <Portfolio />
+      {/* education */}
+      <Education/>
+      {/* contact form  */}
+      <ContactForm/>
     </>
   );
 };

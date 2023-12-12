@@ -4,7 +4,7 @@ import DownloadButton from "../Shared/DownloadButton";
 const AboutMe = () => {
   return (
     <>
-      <div className="max-w-4/5 w-4/5 justify-center flex items-stretch  py-36  flex-wrap mx-auto my-32 lg:my-0">
+      <div id="aboutMe" className="max-w-4/5 w-4/5 justify-center flex items-stretch  py-36  flex-wrap mx-auto my-32 lg:my-0">
         {/*Main Col*/}
         <div
           id="profile"
@@ -45,7 +45,7 @@ const AboutMe = () => {
               <div className="flex flex-col items-center justify-center space-y-2 sm:flex-row sm:space-y-0 sm:space-x-2 lg:justify-start">
                 <DownloadButton/>
                 <a
-                  href="/"
+                  href="#contactWithMe"
                   className="inline-flex h-12 w-full items-center justify-center rounded-full border-2 border-primary px-4 font-semibold text-green-600 transition-colors duration-200 hover:border-y-green-400 hover:text-green-400 sm:w-auto"
                 >
                   Contact With Me
