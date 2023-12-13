@@ -5,7 +5,7 @@ const PortfolioItem = ({portfolio}) => {
   const {title,thumbnail,liveLink} = portfolio
 
   return (
-    <div class="relative mb-12 shadow-md border border-primary rounded-md ">
+    <div class="relative sm:mb-12 shadow-md border border-primary rounded-md ">
       <div class="overflow-hidden h-72 rounded-[10px]">
         <Image
           src={thumbnail}

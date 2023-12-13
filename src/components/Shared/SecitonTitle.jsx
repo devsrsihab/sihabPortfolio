@@ -1,6 +1,6 @@
 const SecitonTitle = ({ firstText, secondText }) => {
   return (
-    <div className="sm:text-center mb-16 relative flex flex-col items-center gap-3">
+    <div className="sm:text-center sm:mb-16 relative flex flex-col items-center gap-3">
       <h2 className="text-3xl capitalize font-semibold leading-7 text-secondary sm:text-4xl xl:text-5xl">
         {firstText} 
         {secondText}
