@@ -13,25 +13,25 @@ import { SiJquery,SiPhp } from "react-icons/si";
 
 const Skills = () => {
   return (
-    <div id="mySkills">
+    <div id="mySkills" className="w-full" >
     <Container>
-      <div  className="skills-parent w-full flex items-baseline gap-8 px-4 ">
-        <div className="skills-content w-1/2">
+      <div  className="skills-parent my-16 md:my-0 w-full lg:flex items-baseline gap-8 px-4 ">
+        <div className="skills-content w-full lg:w-1/2">
           <div className="special-skill">
             <p className="bg-teal-accent-400 inline-block mb-4 rounded bg-primary py-2 px-4 text-sm font-semibold tracking-wider text-white">
-              <FaGripLinesVertical className="inline" />{" "}
+              <FaGripLinesVertical className="inline" />
               <span>Special Skills</span>
             </p>
           </div>
-          <h2 className="mb-6 max-w-lg font-sans text-3xl font-bold tracking-tight text-white sm:text-5xl sm:leading-snug">
-            <span className="inline-block w-2/3 leading-11 text-secondary">
+          <h2 className="mb-6 lg:max-w-lg font-sans text-3xl font-bold tracking-tight text-white sm:text-5xl sm:leading-snug">
+            <span className="  lg:inline-block lg:w-2/3 leading-11 text-secondary">
               My Special Skill Field Here.
             </span>
           </h2>
           <DownloadButton/>
         </div>
 
-        <div className="skills grid grid-cols-3  gap-4 w-1/2">
+        <div className="skills my-8 sm:my-12  md:my-16 grid grid-cols-2 sm:grid-cols-3 md:grid-cols-5 lg:grid-cols-3  gap-4 lg:w-1/2">
           {/* html */}
          <div className="icon-box p-4 flex flex-col gap-2 justify-center items-center rounded-md shadow-md   ">
           <FaHtml5 className="text-5xl text-[#ff5c29]" />

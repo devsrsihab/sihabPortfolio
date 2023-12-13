@@ -4,7 +4,7 @@ import DownloadButton from "../Shared/DownloadButton";
 const AboutMe = () => {
   return (
     <>
-      <div id="aboutMe" className=" w-full md:max-w-4/5 justify-center flex items-stretch py-6  md:py-16 lg:py-36 md:px-20 flex-wrap mx-auto my-20 md:my-32 lg:my-0">
+      <div id="aboutMe" className=" w-full md:max-w-4/5 justify-center flex items-stretch py-6  md:py-16 lg:py-36 md:px-20 flex-wrap mx-auto my-20 md:my-24 lg:my-0">
         {/*Main Col*/}
         <div
           id="profile"
