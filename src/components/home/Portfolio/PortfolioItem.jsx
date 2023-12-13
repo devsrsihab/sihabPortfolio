@@ -27,7 +27,7 @@ const PortfolioItem = ({portfolio}) => {
           target="_blank"
           class="text-body-color dark:text-dark-6 hover:border-primary hover:bg-primary inline-block rounded-md border border-stroke dark:border-dark-3 py-[10px] px-7 text-sm font-medium transition hover:text-white"
         >
-          View Details
+         Live Preview
         </a>
       </div>
     </div>

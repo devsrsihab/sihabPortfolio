@@ -15,7 +15,7 @@ const portfolio = [
       "details": "Eyarafashion seems to be an online platform specializing in fashion and clothing. The website likely offers a diverse range of clothing items, possibly including traditional wear and modern fashion pieces. The site's design and layout may focus on showcasing various clothing collections, catering to different styles, occasions, or cultural influences. \nEyarafashion might provide a user-friendly shopping experience, displaying high-quality images of products alongside detailed descriptions and sizing information. It might also include sections for new arrivals, best sellers, and possibly feature blog content or style tips to engage and inform visitors about the latest trends or fashion advice.",
       "thumbnail": "https://i.ibb.co/cgzRjVV/eyarafashion.png",
       "image": "https://i.ibb.co/Xs1DtJF/eyarafashion2.png",
-      "liveLink": "https://www.project2.com"
+      "liveLink": "https://eyarafashion.com"
     },
     {
       "_id": 3,
