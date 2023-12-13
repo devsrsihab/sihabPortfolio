@@ -2,7 +2,7 @@ const SecitonTitle = ({ firstText, secondText }) => {
   return (
     <div className="sm:text-center mb-16 relative flex flex-col items-center gap-3">
       <h2 className="text-3xl capitalize font-semibold leading-7 text-secondary sm:text-4xl xl:text-5xl">
-        {firstText} <br className="sm:hidden" />
+        {firstText} 
         {secondText}
       </h2>
       <div className="flex w-28 mt-1 mb-10 overflow-hidden rounded">
