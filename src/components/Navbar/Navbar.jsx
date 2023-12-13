@@ -3,8 +3,11 @@ import NavLinks from "./NavLinks";
 const Navbar = () => {
   return (
     <header className=" bg-white flex max-w-full flex-col  px-4 py-4 text-slate-700 md:mx-auto md:flex-row md:items-center">
+      <div className="logo-img w-52 ">
       {/* logo */}
       <Logo/>
+
+      </div>
     <input type="checkbox" className="peer hidden" id="navbar-open" />
     <label
       className="absolute top-5 right-7 cursor-pointer md:hidden"
