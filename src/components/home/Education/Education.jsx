@@ -13,11 +13,12 @@ const Education = () => {
         />
         <section id="education" className="bg-gray-800  px-4">
           <section className="items-center py-24 font-poppins dark:">
-            <div className="justify-center max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6">
-              <div className="max-w-xl mx-auto"></div>
+            <div className="justify-center w-full sm:max-w-6xl px-4 py-4 mx-auto lg:py-8 md:px-6">
+              <div className="w-full sm:max-w-xl mx-auto"></div>
               <div className="w-full mx-auto lg:max-w-3xl">
-                <div className="relative flex justify-between">
-                  <div className="flex flex-col items-center w-10 mr-4 md:w-24">
+                {/* ssc */}
+                <div className="relative sm:flex justify-between">
+                  <div className="hidden md:flex flex-col items-center w-10 mr-4 md:w-24">
                     <div>
                       <div className="flex items-center justify-center w-8 h-8 bg-blue-200 rounded-full dark:bg-gray-600">
                         <div className="w-4 h-4  rounded-full bg-blue-400" />
@@ -25,7 +26,6 @@ const Education = () => {
                     </div>
                     <div className="w-px h-full bg-blue-300 dark:bg-gray-600" />
                   </div>
-
                   <div>
                     <h2 className="inline-block px-4 py-2 mb-4 text-xs font-medium text-gray-100 bg-gradient-to-r from-blue-500 to-blue-900  rounded-3xl dark:text-gray-100">
                       2015-2017
@@ -43,8 +43,9 @@ const Education = () => {
                     </div>
                   </div>
                 </div>
-                <div className="relative flex justify-between">
-                  <div className="flex flex-col items-center w-10 mr-4 md:w-24">
+                {/* hsc */}
+                <div className="relative sm:flex justify-between">
+                  <div className="hidden md:flex flex-col items-center w-10 mr-4 md:w-24">
                     <div>
                       <div className="flex items-center justify-center w-8 h-8 bg-blue-200 rounded-full dark:bg-gray-600">
                         <div className="w-4 h-4  rounded-full bg-blue-400" />
@@ -69,8 +70,9 @@ const Education = () => {
                     </div>
                   </div>
                 </div>
-                <div className="relative flex justify-between">
-                  <div className="flex flex-col items-center w-10 mr-4 md:w-24">
+                {/* hons */}
+                <div className="relative sm:flex justify-between">
+                  <div className="hidden md:flex flex-col items-center w-10 mr-4 md:w-24">
                     <div>
                       <div className="flex items-center justify-center w-8 h-8 bg-blue-200 rounded-full dark:bg-gray-600">
                         <div className="w-4 h-4  rounded-full bg-blue-400" />
