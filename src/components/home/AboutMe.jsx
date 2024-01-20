@@ -6,12 +6,12 @@ const AboutMe = () => {
     <>
       <div
         id="aboutMe"
-        className=" w-full md:max-w-4/5 justify-center flex items-stretch py-6  md:py-16 lg:py-36 md:px-20 flex-wrap mx-auto my-20 md:my-24 lg:my-0"
+        className=" w-full md:max-w-4/5 justify-center grid grid-cols-2 items-stretch py-6  md:py-16 lg:py-36 md:px-20 flex-wrap mx-auto my-20 md:my-24 lg:my-0"
       >
         {/*Main Col*/}
         <div
           id="profile"
-          className=" lg:w-3/5 mx-10  h-full rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75  lg:mx-0"
+          className="flex-1  mx-10  h-full rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75  lg:mx-0"
         >
           <div className="p-4 md:p-12 text-center lg:text-left">
             {/* Image for mobile view*/}
@@ -124,13 +124,13 @@ const AboutMe = () => {
           </div>
         </div>
         {/*Img Col*/}
-        <div className="devsihab-img  w-full grow h-full lg:w-2/5">
+        <div className="flex-1 devsihab-img  w-full grow h-full ">
           {/* Big profile image for side bar (desktop) */}
           <Image
             src={ProfileImg}
             className="rounded-none h-full lg:rounded-lg shadow-2xl hidden lg:block"
-            width={390}
-            height={390}
+            placeholder="blur"
+
             alt="devsrsihab"
           />
           {/* Image from: http://unsplash.com/photos/MP0IUfwrn0A */}
