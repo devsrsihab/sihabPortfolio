@@ -1,25 +1,32 @@
-'use client'
+"use client";
 import { useState } from "react";
 import { CgSoftwareDownload } from "react-icons/cg";
 // import resume from "/@/assets/resume/resume.txt";
 const DownloadButton = () => {
-  const [fileUrl, setFileUrl] = useState('/@/assets/resume/resume.txt');
 
-  const handleDownload = () => {
-    // Create an anchor element
-    const downloadLink = document.createElement('a');
-    downloadLink.href = fileUrl;
-    downloadLink.download = 'resume.txt'; // Name for the downloaded file
-    document.body.appendChild(downloadLink);
-    downloadLink.click();
-    document.body.removeChild(downloadLink);
+/* The code you provided is a React component that renders a download button. */
+  const cvUrl = "https://devsrsihab.vercel.app/Md-Sohanur-Rohman-Sihab.pdf";
+  const handleDownloadCv = (url) => {
+    
+    fetch(url)
+      .then((res) => res.blob())
+      .then((blob) => {
+        const blogURL = window.URL.createObjectURL(new Blob([blob]));
+
+        const fileName = url.split("/").pop();
+        const aTag = document.createElement("a");
+        aTag.href = blogURL;
+        aTag.setAttribute("download", fileName);
+        document.body.appendChild(aTag);
+        aTag.click();
+        aTag.remove();
+      })
+      .catch((err) => console.log(err));
   };
 
   return (
     <button
-    onClick={handleDownload}
-
-
+      onClick={() => handleDownloadCv(cvUrl)}
       className="inline-flex capitalize h-12 w-full items-center justify-center rounded-full bg-primary px-6 font-medium tracking-wide text-white shadow-md outline-none transition duration-200 hover:bg-green-400 focus:ring sm:w-auto"
     >
       get resume <CgSoftwareDownload className="font-semibold text-xl ml-3" />

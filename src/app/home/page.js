@@ -1,9 +1,8 @@
-import AboutMe from "@/components/home/AboutMe";
-import ContactForm from "@/components/home/Contact/ContactForm";
-import Education from "@/components/home/Education/Education";
-import Hero from "@/components/home/Hero";
-import Portfolio from "@/components/home/Portfolio/Portfolio";
-import Skills from "@/components/home/Skills";
+import AboutMe from "@/src/components/home/AboutMe";
+import ContactForm from "@/src/components/home/Contact/ContactForm";
+import Hero from "@/src/components/home/Hero";
+import Portfolio from "@/src/components/home/Portfolio/Portfolio";
+import Skills from "@/src/components/home/Skills";
 
 const HomePage = () => {
   return (
