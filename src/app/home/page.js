@@ -17,7 +17,7 @@ const HomePage = () => {
       {/* portfolio */}
       <Portfolio />
       {/* education */}
-      <Education/>
+      {/* <Education/> */}
       {/* contact form  */}
       <ContactForm/>
     </>

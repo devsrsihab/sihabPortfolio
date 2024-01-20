@@ -6,12 +6,12 @@ const AboutMe = () => {
     <>
       <div
         id="aboutMe"
-        className=" w-full md:max-w-4/5 justify-center grid grid-cols-2 items-stretch py-6  md:py-16 lg:py-36 md:px-20 flex-wrap mx-auto my-20 md:my-24 lg:my-0"
+        className=" w-full md:max-w-4/5 grid grid-cols-1 lg:grid-cols-2  py-6  md:py-16 lg:py-36 md:px-20  mx-auto my-20 md:my-24 lg:my-0"
       >
         {/*Main Col*/}
         <div
           id="profile"
-          className="flex-1  mx-10  h-full rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75  lg:mx-0"
+          className="mx-10 w-full   h-full rounded-lg lg:rounded-l-lg lg:rounded-r-none shadow-2xl bg-white opacity-75  lg:mx-0"
         >
           <div className="p-4 md:p-12 text-center lg:text-left">
             {/* Image for mobile view*/}
@@ -54,7 +54,7 @@ const AboutMe = () => {
                 </a>
               </div>
             </div>
-            <div className="mt-6 pb-16 lg:pb-0 w-full lg:w-full mx-auto flex gap-6 flex-wrap items-center ">
+            <div className="mt-6 pb-16 lg:pb-0 w-full lg:w-full mx-auto flex gap-6 flex-wrap items-center justify-center lg:justify-start">
               <a
                 className="link"
                 target="_blank"
@@ -124,13 +124,12 @@ const AboutMe = () => {
           </div>
         </div>
         {/*Img Col*/}
-        <div className="flex-1 devsihab-img  w-full grow h-full ">
+        <div className=" devsihab-img  w-full  h-full ">
           {/* Big profile image for side bar (desktop) */}
           <Image
             src={ProfileImg}
             className="rounded-none h-full lg:rounded-lg shadow-2xl hidden lg:block"
             placeholder="blur"
-
             alt="devsrsihab"
           />
           {/* Image from: http://unsplash.com/photos/MP0IUfwrn0A */}
