@@ -1,5 +1,5 @@
 import Image from "next/image";
-import ProfileImg from "@/assets/images/devsrsihabbgremove.png";
+import ProfileImg from "@/src/assets/images/devsrsihabbgremove.png";
 import DownloadButton from "../Shared/DownloadButton";
 const AboutMe = () => {
   return (

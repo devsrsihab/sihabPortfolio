@@ -1,4 +1,4 @@
-import { getAllPortflio } from "@/utils/getPortfolio";
+import { getAllPortflio } from "@/src/utils/getPortfolio";
 import Container from "../../Shared/Container";
 import SecitonTitle from "../../Shared/SecitonTitle";
 import PortfolioItem from "./PortfolioItem";
