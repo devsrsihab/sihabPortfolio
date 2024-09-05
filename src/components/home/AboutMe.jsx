@@ -18,7 +18,7 @@ const AboutMe = () => {
             <div
               className="block lg:hidden rounded-full shadow-xl mx-auto -mt-16 h-48 w-48 bg-cover bg-center"
               style={{
-                backgroundImage: `url("https://i.ibb.co/xmV97pk/devsrsihab.jpg")`,
+                backgroundImage: `url("/devsrsihab.jpg")`,
               }}
             />
             <h1 className="text-3xl font-bold pt-8 lg:pt-0">

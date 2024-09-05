@@ -22,11 +22,6 @@ const NavLinks = () => {
           </a>
         </li>
         <li className="md:mr-12">
-        <a href="#education" >
-          Education
-          </a>
-        </li>
-        <li className="md:mr-12">
         <a href="#contactWithMe" >
           Contact
           </a>

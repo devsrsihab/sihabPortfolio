@@ -2,7 +2,7 @@ import Logo from "../Shared/Logo";
 import NavLinks from "./NavLinks";
 const Navbar = () => {
   return (
-    <header className=" bg-white flex max-w-full flex-col  px-4 py-4 text-slate-700 md:mx-auto md:flex-row md:items-center">
+    <header className=" fixed top-0 left-0 right-0 z-20 bg-white flex max-w-full flex-col  px-4 py-4 text-slate-700 md:mx-auto md:flex-row md:items-center">
       <div className="logo-img w-52 ">
       {/* logo */}
       <Logo/>
