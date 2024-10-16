@@ -49,6 +49,62 @@ const ContactForm = () => {
               <div className="col-span-4 bg-gray-50 px-8 py-10 text-secondary md:col-span-2 md:border-r md:px-10 md:py-12 lg:col-span-1">
                 <h2 className="mb-8 text-2xl font-black">Contact me</h2>
                 {/* Contact Info Here */}
+                <ul>
+                  <li className="mb-6 flex items-start text-left">
+                    <svg
+                      className="shrink-0 mr-6 text-2xl text-gray-500"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                      role="img"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        d="M20 4H4c-1.1 0-1.99.9-1.99 2L2 18c0 1.1.9 2 2 2h16c1.1 0 2-.9 2-2V6c0-1.1-.9-2-2-2zm0 4l-8 5l-8-5V6l8 5l8-5v2z"
+                      />
+                    </svg>
+                    <div>
+                      <a
+                        className="cursor-pointer font-serif text-base md:text-lg"
+                        href="#"
+                      >
+                        md.srsihabzone@gmail.com
+                      </a>
+                      <span className="block text-xs uppercase">email</span>
+                    </div>
+                  </li>
+                  <li className="my-6 flex items-center text-left">
+                    <svg
+                      className="shrink-0 mr-6 text-2xl text-gray-500"
+                      xmlns="http://www.w3.org/2000/svg"
+                      aria-hidden="true"
+                      role="img"
+                      width="1em"
+                      height="1em"
+                      preserveAspectRatio="xMidYMid meet"
+                      viewBox="0 0 24 24"
+                    >
+                      <path
+                        fill="currentColor"
+                        fillRule="evenodd"
+                        d="M1 2.838A1.838 1.838 0 0 1 2.838 1H21.16A1.837 1.837 0 0 1 23 2.838V21.16A1.838 1.838 0 0 1 21.161 23H2.838A1.838 1.838 0 0 1 1 21.161V2.838Zm8.708 6.55h2.979v1.496c.43-.86 1.53-1.634 3.183-1.634c3.169 0 3.92 1.713 3.92 4.856v5.822h-3.207v-5.106c0-1.79-.43-2.8-1.522-2.8c-1.515 0-2.145 1.089-2.145 2.8v5.106H9.708V9.388Zm-5.5 10.403h3.208V9.25H4.208v10.54ZM7.875 5.812a2.063 2.063 0 1 1-4.125 0a2.063 2.063 0 0 1 4.125 0Z"
+                        clipRule="evenodd"
+                      />
+                    </svg>
+                    <div>
+                      <a
+                        href="https://www.linkedin.com/in/devsrsihab/"
+                        className="font-serif text-base md:text-lg"
+                      >
+                        devsrsihab
+                      </a>
+                      <span className="block text-xs uppercase">LinkedIn</span>
+                    </div>
+                  </li>
+                </ul>
               </div>
               <div className="order-first col-span-4 max-w-screen-md px-8 py-10 md:order-last md:col-span-2 md:px-10 md:py-12">
                 <h2 className="mb-8 text-2xl font-black">Get in touch</h2>
@@ -116,3 +172,21 @@ const ContactForm = () => {
 };
 
 export default ContactForm;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

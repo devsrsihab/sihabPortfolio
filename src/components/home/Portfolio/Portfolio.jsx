@@ -12,7 +12,7 @@ const Portfolio = async () => {
   return (
     <div id="portfolio">
       <Container>
-        <SecitonTitle firstText="My" secondText="Portfolio" />
+        <SecitonTitle firstText="My" secondText=" Portfolio" />
         {/* items */}
         <div className="grid  sm:grid-cols-2 lg:grid-cols-3 gap-6 ">
           {

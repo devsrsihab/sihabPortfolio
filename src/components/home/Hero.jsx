@@ -7,7 +7,7 @@ const Hero = () => {
     
       <div id="homeHero" className="relative bg-[#333333] md:px-20 py-10 sm:py-20 md:py-40 lg:py-96  mx-auto  lg:pt-20  max-w-full ">
         <div className="mx-auto md:mt-30 w-full lg:max-w-screen-xl">
-          <div className="mb-16 text-center lg:mb-0 lg:max-w-lg lg:text-left">
+          <div className="mb-16 lg:mt-[255px] text-center lg:mb-0 lg:max-w-lg lg:text-left">
             <div className="mb-6 w-full lg:max-w-xl">
 
               <h2 className="mb-6 pt-10  lg:max-w-lg font-sans text-3xl font-bold tracking-tight text-white sm:text-5xl sm:leading-snug">
@@ -18,7 +18,7 @@ const Hero = () => {
               </h2>
               <div>
                 <p className="bg-teal-accent-400 mb-4 inline-block rounded-full bg-primary px-3 py-px text-sm font-semibold tracking-wider text-white">
-                A Professional Web Developer
+                MERN Stack Web Developer
                 </p>
               </div>
             </div>
